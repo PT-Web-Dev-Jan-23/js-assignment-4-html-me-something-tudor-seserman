@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+html{
+    background-color:  rgb(179, 141, 95);
+}
+
 body{
     margin: 8px;
     display: block;
@@ -31,13 +35,15 @@ article{
 }
 
 .list{
-    margin: auto;
+    margin: auto 25vw;
+    border: 4px rgba(106, 54, 3, 0.832) solid;
+    background-color: rgb(179, 141, 95);
 }
 
 .listBullet{
     align-content: left;
     margin: auto;
-    padding-left: 40%;
+    padding-left: 30%;
     display: flex;
     position: relative;
 }
@@ -58,7 +64,6 @@ article{
     animation-name: rotate;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    z-index: -1;
 }
 
 @keyframes rotate {
