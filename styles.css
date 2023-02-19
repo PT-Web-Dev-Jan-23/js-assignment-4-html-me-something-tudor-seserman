@@ -1,1 +1,78 @@
-/* Write your CSS here! */
+*{
+    align-content: center;
+    text-align: center;
+}
+
+html{
+    background-color:  rgb(179, 141, 95);
+}
+
+body{
+    margin: 8px;
+    display: block;
+    background-color: rgb(180, 101, 27);
+}
+
+article{
+    font-size: larger;
+}
+
+#mainHeading{
+    color: red;
+    font-size: large;
+}
+
+#mainHeading:hover{
+    font-size: xx-large;
+    color: green;
+}
+
+.funParagraph{
+    width: 50vw;
+    color:green;
+    margin: auto;
+    
+}
+
+.list{
+    margin: auto 25vw;
+    border: 4px rgba(106, 54, 3, 0.832) solid;
+    background-color: rgb(179, 141, 95);
+}
+
+.listBullet{
+    align-content: left;
+    margin: auto;
+    padding-left: 30%;
+    display: flex;
+    position: relative;
+}
+
+.listBulletHeading{
+    text-emphasis-style: sesame;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#bagel{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    height: 40vh;
+    width: 40vh;
+    animation-duration: 5s;
+    animation-name: rotate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  
